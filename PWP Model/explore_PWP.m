@@ -62,7 +62,9 @@ subplot(1,3,3);hold on
 plot(profile.d,profile.z,'linewidth',2)
 xlabel('\sigma_\theta (kg/m^3)');
 set(gca,'ydir','reverse','fontsize',14)
-%PWP_Byron('met.mat','prof.mat','output.mat');
+
+%% RUN THE CODE
+PWP_Byron('met.mat','prof.mat','output.mat');
 
 %Water column final condition 
 subplot(1,3,1);
